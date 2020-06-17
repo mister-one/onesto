@@ -20,7 +20,7 @@
         }
       ],
       "num_node_available": 2121,
-      "instances_ranking": [
+      "node_ranking": [
         {
           "node_address": "https://gooe.com/Review/1",
           "trust_score": 0.1,
@@ -30,9 +30,7 @@
           "node_address": "https://gooe.com/Review/2",
           "trust_score": 0.1,
           "frequency_score": 1
-        }
-      ],
-      "links_ranking": [
+        },
         {
           "origin": "Allert",
           "incoming_node_address": [
@@ -64,7 +62,7 @@
         }
       ],
       "num_node_available": 2121,
-      "instances_ranking": [
+      "node_ranking": [
         {
           "node_address": "https://gooe.com/Review/4",
           "trust_score": 0.1,
@@ -74,9 +72,7 @@
           "node_address": "https://gooe.com/Review/5",
           "trust_score": 0.1,
           "frequency_score": 1
-        }
-      ],
-      "links_ranking": [
+        },
         {
           "origin": "Allert",
           "incoming_node_address": [

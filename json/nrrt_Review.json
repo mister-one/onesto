@@ -30,7 +30,9 @@
           "node_address": "https://gooe.com/Review/2",
           "trust_score": 0.1,
           "frequency_score": 1
-        },
+        }
+      ],
+      "link_ranking": [
         {
           "origin": "Allert",
           "incoming_node_address": [
@@ -72,7 +74,9 @@
           "node_address": "https://gooe.com/Review/5",
           "trust_score": 0.1,
           "frequency_score": 1
-        },
+        }
+      ],
+      "link_ranking": [
         {
           "origin": "Allert",
           "incoming_node_address": [

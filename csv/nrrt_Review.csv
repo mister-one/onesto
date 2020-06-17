@@ -1,0 +1,67 @@
+ranking_id,score,[ABOUT],date,# of instances,instances_ranking,links_ranking
+0,unranked,unranked,unranked,40,all_instances,Only the links pointing to best_rated(Car)
+1,Serie-1,"Company/ranking/3
+""BMW""",Petrol,10,"[ 
+https://oneweb.com/Book/1313,
+https://nienne.com/Book/31898,
+https://gooe.com/Book/1 
+]","[
+{""Allert"": 
+     https://henno.co/Allert/11121 ,
+     https://henno.co/Allert/11241},
+{""Offer"": 
+     https://henno.co/Offer/11241 ,
+     https://henno.co/Offer/11241},
+]"
+2,A4,"Company/ranking/2
+""Audi""",Hybrid,10,"[ 
+https://oneweb.com/Book/1313,
+https://nienne.com/Book/31898,
+https://gooe.com/Book/1 
+]","[
+{""Allert"": 
+     https://henno.co/Allert/11121 ,
+     https://henno.co/Allert/11241},
+{""Offer"": 
+     https://henno.co/Offer/11241 ,
+     https://henno.co/Offer/11241},
+]"
+3,Serie-2,"Company/ranking/3
+""BMW""",Petrol,5,"[ 
+https://oneweb.com/Book/1313,
+https://nienne.com/Book/31898,
+https://gooe.com/Book/1 
+]","[
+{""Allert"": 
+     https://henno.co/Allert/11121 ,
+     https://henno.co/Allert/11241},
+{""Offer"": 
+     https://henno.co/Offer/11241 ,
+     https://henno.co/Offer/11241},
+]"
+4,A6,"Company/ranking/2
+""Audi""",Petrol,10,"[ 
+https://oneweb.com/Book/1313,
+https://nienne.com/Book/31898,
+https://gooe.com/Book/1 
+]","[
+{""Allert"": 
+     https://henno.co/Allert/11121 ,
+     https://henno.co/Allert/11241},
+{""Offer"": 
+     https://henno.co/Offer/11241 ,
+     https://henno.co/Offer/11241},
+]"
+5,Serie-3,"Company/ranking/3
+""BMW""",Petrol,5,"[ 
+https://oneweb.com/Book/1313,
+https://nienne.com/Book/31898,
+https://gooe.com/Book/1 
+]","[
+{""Allert"": 
+     https://henno.co/Allert/11121 ,
+     https://henno.co/Allert/11241},
+{""Offer"": 
+     https://henno.co/Offer/11241 ,
+     https://henno.co/Offer/11241},
+]"

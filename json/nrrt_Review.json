@@ -2,21 +2,23 @@
   "Review": [
     {
       "NRRT_ID": "1",
-      "rf_1": {
-        "feature_name": "score",
-        "feature_type": "MEAS",
-        "feature_value": "3/5"
-      },
-      "rf_2": {
-        "feature_name": "date",
-        "feature_type": "MEAS",
-        "feature_value": "January 2020"
-      },
-      "rf_3": {
-        "feature_name": "[ABOUT]->(Product)",
-        "feature_type": "LINK",
-        "feature_value": "Product/123123"
-      },
+      "rf": [
+        {
+          "feature_name": "score",
+          "feature_type": "MEAS",
+          "feature_value": "3/5"
+        },
+        {
+          "feature_name": "date",
+          "feature_type": "MEAS",
+          "feature_value": "January 2020"
+        },
+        {
+          "feature_name": "[ABOUT]->(Product)",
+          "feature_type": "LINK",
+          "feature_value": "Product/123123"
+        }
+      ],
       "num_node_available": 2121,
       "instances_ranking": [
         {
@@ -44,21 +46,23 @@
     },
     {
       "NRRT_ID": "2",
-      "rf_1": {
-        "feature_name": "score",
-        "feature_type": "MEAS",
-        "feature_value": "3/5"
-      },
-      "rf_2": {
-        "feature_name": "date",
-        "feature_type": "MEAS",
-        "feature_value": "Feb 2020"
-      },
-      "rf_3": {
-        "feature_name": "[ABOUT]->(Product)",
-        "feature_type": "LINK",
-        "feature_value": "Product/123123"
-      },
+      "rf": [
+        {
+          "feature_name": "score",
+          "feature_type": "MEAS",
+          "feature_value": "3/5"
+        },
+        {
+          "feature_name": "date",
+          "feature_type": "MEAS",
+          "feature_value": "Feb 2020"
+        },
+        {
+          "feature_name": "[ABOUT]->(Product)",
+          "feature_type": "LINK",
+          "feature_value": "Product/123123"
+        }
+      ],
       "num_node_available": 2121,
       "instances_ranking": [
         {

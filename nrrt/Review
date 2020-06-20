@@ -24,13 +24,13 @@
       "node_ranking": [
         {
           "node_address": "https://gooe.com/Review/1",
-          "node_abm": "https://onesto.world/abm/Review/1",
+          "node_abm": "https://raw.githubusercontent.com/mister-one/onesto/master/ABM/Review/1",
           "trust_score": 0.1,
           "frequency_score": 1
         },
         {
           "node_address": "https://gooe.com/Review/2",
-          "node_abm": "https://onesto.world/abm/Review/1",
+          "node_abm": "https://raw.githubusercontent.com/mister-one/onesto/master/ABM/Review/1",
           "trust_score": 0.1,
           "frequency_score": 1
         }
@@ -70,13 +70,13 @@
       "node_ranking": [
         {
           "node_address": "https://gooe.com/Review/4",
-          "node_abm": "https://onesto.world/abm/Review/1",
+          "node_abm": "https://raw.githubusercontent.com/mister-one/onesto/master/ABM/Review/1",
           "trust_score": 0.1,
           "frequency_score": 1
         },
         {
           "node_address": "https://gooe.com/Review/5",
-          "node_abm": "https://onesto.world/abm/Review/2",
+          "node_abm": "https://raw.githubusercontent.com/mister-one/onesto/master/ABM/Review/1",
           "trust_score": 0.1,
           "frequency_score": 1
         }

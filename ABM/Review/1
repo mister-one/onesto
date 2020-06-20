@@ -1,0 +1,1732 @@
+{
+  "Review": [
+    {
+      "ABM_ID": "1",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "2",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "3",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "4",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "5",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "6",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "7",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "8",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "9",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "10",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "11",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "12",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "13",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "14",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "15",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "16",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "17",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "18",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "19",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "20",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "21",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "22",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "23",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "24",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "25",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "26",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "27",
+      "attributes": [
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "measures": [
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "relationships": [
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "nodes_value_dtype": "JSON(DTYPES)",
+          "time_link": false,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    }
+  ]
+}

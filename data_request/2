@@ -1,0 +1,117 @@
+{
+  "DR_ID": "2",
+  "UOA": "Review",
+  "attributes": [
+    {
+      "attribute_name": "summary",
+      "value_dtype": "VARCHART"
+    },
+    {
+      "attribute_name": "text",
+      "value_dtype": "VARCHART"
+    }
+  ],
+  "measures": [
+    {
+      "measure_name": "score",
+      "measure_type": "time",
+      "unit_of_measurement/format": "TIMESTAMP",
+      "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+      "statistic_type": "observation (default)",
+      "measurement_reference_time": "__self__",
+      "measurement_precision": "±(default=NULL)"
+    },
+    {
+      "measure_name": "when",
+      "measure_type": "time",
+      "unit_of_measurement/format": "TIMESTAMP",
+      "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+      "statistic_type": "observation (default)",
+      "measurement_reference_time": "__self__",
+      "measurement_precision": "±(default=NULL)"
+    }
+  ],
+  "relationships": [
+    {
+      "relationship": "(__Self__)-[requested_by]->(__User__)",
+      "nodes_value_dtype": [
+        {
+          "item_name": "User",
+          "attributes": [
+            {
+              "attribute_name": "name",
+              "value_dtype": "VARCHART"
+            },
+            {
+              "attribute_name": "nickname",
+              "value_dtype": "VARCHART"
+            }
+          ],
+          "measures": [
+            {
+              "measure_name": "age",
+              "measure_type": "time",
+              "unit_of_measurement/format": "TIMESTAMP",
+              "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+              "statistic_type": "observation (default)",
+              "measurement_reference_time": "__self__",
+              "measurement_precision": "±(default=NULL)"
+            },
+            {
+              "measure_name": "height",
+              "measure_type": "height",
+              "unit_of_measurement/format": "cm",
+              "value_dtype": "float",
+              "statistic_type": "observation (default)",
+              "measurement_reference_time": "__self__",
+              "measurement_precision": "±(default=NULL)"
+            }
+          ]
+        }
+      ],
+      "time_link": false,
+      "link_criteria": "best_rated",
+      "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+    },
+    {
+      "relationship": "(__Self__)-[ABOUT]->(__Product__)",
+      "nodes_value_dtype": [
+        {
+          "item_name": "Product",
+          "attributes": [
+            {
+              "attribute_name": "name",
+              "value_dtype": "VARCHART"
+            },
+            {
+              "attribute_name": "category",
+              "value_dtype": "VARCHART"
+            }
+          ],
+          "measures": [
+            {
+              "measure_name": "price",
+              "measure_type": "accounting",
+              "unit_of_measurement/format": "TIMESTAMP",
+              "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+              "statistic_type": "observation (default)",
+              "measurement_reference_time": "__self__",
+              "measurement_precision": "±(default=NULL)"
+            },
+            {
+              "measure_name": "weight",
+              "measure_type": "weight",
+              "unit_of_measurement/format": "kg",
+              "value_dtype": "float",
+              "statistic_type": "observation (default)",
+              "measurement_reference_time": "__self__",
+              "measurement_precision": "±(default=NULL)  time_link b = false"
+            }
+          ]
+        }
+      ],
+      "link_criteria": "best_rated",
+      "values": "{\"\"Author\"\": [ { \"\"name\"\": \"\"__input__\"\"}, { \"\"name\"\": \"\"__input__\"\"} ]}"
+    }
+  ]
+}

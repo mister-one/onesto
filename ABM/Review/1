@@ -4,17 +4,17 @@
       "ABM_ID": "1",
       "attributes": [
         {
-          "attribute_name": "score",
+          "attribute_name": "1_a_score",
           "value_dtype": "MEAS"
         },
         {
-          "attribute_name": "score",
+          "attribute_name": "1_b_score",
           "value_dtype": "MEAS"
         }
       ],
       "measures": [
         {
-          "measure_name": "when",
+          "measure_name": "1_c_when",
           "measure_type": "time",
           "unit_of_measurement/format": "TIMESTAMP",
           "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
@@ -23,7 +23,7 @@
           "measurement_precision": "±(default=NULL)"
         },
         {
-          "measure_name": "when",
+          "measure_name": "1_d_when",
           "measure_type": "time",
           "unit_of_measurement/format": "TIMESTAMP",
           "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
@@ -34,14 +34,14 @@
       ],
       "relationships": [
         {
-          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "relationship": "1_a_(__Self__)-[requested_by]->(__User__)",
           "nodes_value_dtype": "JSON(DTYPES)",
           "time_link": false,
           "link_criteria": "best_rated",
           "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
         },
         {
-          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "relationship": "1_b_(__Self__)-[requested_by]->(__User__)",
           "nodes_value_dtype": "JSON(DTYPES)",
           "time_link": false,
           "link_criteria": "best_rated",
@@ -68,17 +68,17 @@
       "ABM_ID": "2",
       "attributes": [
         {
-          "attribute_name": "score",
+          "attribute_name": "2_a_score",
           "value_dtype": "MEAS"
         },
         {
-          "attribute_name": "score",
+          "attribute_name": "2_b_score",
           "value_dtype": "MEAS"
         }
       ],
       "measures": [
         {
-          "measure_name": "when",
+          "measure_name": "2_c_when",
           "measure_type": "time",
           "unit_of_measurement/format": "TIMESTAMP",
           "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
@@ -87,7 +87,7 @@
           "measurement_precision": "±(default=NULL)"
         },
         {
-          "measure_name": "when",
+          "measure_name": "2_d_when",
           "measure_type": "time",
           "unit_of_measurement/format": "TIMESTAMP",
           "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
@@ -98,14 +98,14 @@
       ],
       "relationships": [
         {
-          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "relationship": "2_a_(__Self__)-[requested_by]->(__User__)",
           "nodes_value_dtype": "JSON(DTYPES)",
           "time_link": false,
           "link_criteria": "best_rated",
           "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
         },
         {
-          "relationship": "(__Self__)-[requested_by]->(__User__)",
+          "relationship": "2_b_(__Self__)-[requested_by]->(__User__)",
           "nodes_value_dtype": "JSON(DTYPES)",
           "time_link": false,
           "link_criteria": "best_rated",
@@ -132,7 +132,7 @@
       "ABM_ID": "3",
       "attributes": [
         {
-          "attribute_name": "score",
+          "attribute_name": "3_a_score",
           "value_dtype": "MEAS"
         },
         {

@@ -1,0 +1,48 @@
+{
+  "UOA": "Car",
+  "Car": {
+    "ATTR": [
+      "model_name",
+      "color"
+    ],
+    "MEAS": [
+      "max_speed",
+      "consumption"
+    ],
+    "LINK": [
+      "(Car)<-[PRODUCED]-(Company)",
+      "(Car)<-[OWNED]-(Person)"
+    ]
+  },
+  "Company": {
+    "ATTR": [
+      "name",
+      "website"
+    ],
+    "MEAS": [
+      "revenue"
+    ],
+    "LINK": [
+      "(Company)-[LOCATED]->(Country)"
+    ]
+  },
+  "Country": {
+    "ATTR": [
+      "name",
+      "capital"
+    ],
+    "MEAS": [
+      "size"
+    ]
+  },
+  "Person": {
+    "ATTR": [
+      "name",
+      "surname"
+    ],
+    "MEAS": [
+      "weight",
+      "height"
+    ]
+  }
+}

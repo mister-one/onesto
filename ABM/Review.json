@@ -1,0 +1,133 @@
+{
+  "Review": [
+    {
+      "ABM_ID": "1",
+      "ATTR": [
+        {
+          "attribute_name": "1_a_score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "1_b_score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "MEAS": [
+        {
+          "measure_name": "1_c_when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "1_d_when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "LINK": [
+        {
+          "relationship": "1_a_(__Self__)-[requested_by]->(__User__)",
+          "instances_value_dtype": "JSON(DTYPES)",
+          "time_link": False,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "1_b_(__Self__)-[requested_by]->(__User__)",
+          "instances_value_dtype": "JSON(DTYPES)",
+          "time_link": False,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "2",
+      "ATTR": [
+        {
+          "attribute_name": "2_a_score",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "2_b_score",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "MEAS": [
+        {
+          "measure_name": "2_c_when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "2_d_when",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "LINK": [
+        {
+          "relationship": "2_a_(__Self__)-[requested_by]->(__User__)",
+          "instances_value_dtype": "JSON(DTYPES)",
+          "time_link": False,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        },
+        {
+          "relationship": "2_b_(__Self__)-[requested_by]->(__User__)",
+          "instances_value_dtype": "JSON(DTYPES)",
+          "time_link": False,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    }
+      
+  ]
+}

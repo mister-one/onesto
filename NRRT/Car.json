@@ -1,0 +1,96 @@
+{
+  "Car": [
+    {
+      "NRRT_ID": "1",
+      "rf": [
+        {
+          "feature_name": "max_speed",
+          "feature_type": "MEAS",
+          "feature_value": "3/5"
+        },
+        {
+          "feature_name": "max_speed",
+          "feature_type": "MEAS",
+          "feature_value": "January 2020"
+        },
+        {
+          "feature_name": "(Car)<-[PRODUCED]-(Company)",
+          "feature_type": "LINK",
+          "feature_value": "Product/123123"
+        }
+      ],
+      "num_instance_available": 2,
+      "instance_ranking": [
+        {
+          "instance_address": "https://gooe.com/Review/1",
+          "instance_abm": "https://onesto.world/abm/Review/1",
+          "trust_score": 0.1,
+          "frequency_score": 1
+        },
+        {
+          "instance_address": "https://gooe.com/Review/2",
+          "instance_abm": "https://onesto.world/abm/Review/1",
+          "trust_score": 0.1,
+          "frequency_score": 1
+        }
+      ],
+      "link_ranking": [
+        {
+          "origin": "Allert",
+          "incoming_instance_address": [
+            "https://hello.com/Alert/123",
+            "https://hello.com/Alert/123",
+            "https://hello.com/Alert/123",
+            "https://hello.com/Alert/123"
+          ]
+        }
+      ]
+    },
+    {
+      "NRRT_ID": "2",
+      "rf": [
+        {
+          "feature_name": "score",
+          "feature_type": "MEAS",
+          "feature_value": "3/5"
+        },
+        {
+          "feature_name": "date",
+          "feature_type": "MEAS",
+          "feature_value": "Feb 2020"
+        },
+        {
+          "feature_name": "[ABOUT]->(Product)",
+          "feature_type": "LINK",
+          "feature_value": "Product/123123"
+        }
+      ],
+      "num_instance_available": 2121,
+      "instance_ranking": [
+        {
+          "instance_address": "https://gooe.com/Review/4",
+          "instance_abm": "https://onesto.world/abm/Review/1",
+          "trust_score": 0.1,
+          "frequency_score": 1
+        },
+        {
+          "instance_address": "https://gooe.com/Review/5",
+          "instance_abm": "https://onesto.world/abm/Review/2",
+          "trust_score": 0.1,
+          "frequency_score": 1
+        }
+      ],
+      "link_ranking": [
+        {
+          "origin": "Allert",
+          "incoming_instance_address": [
+            "https://hello.com/Alert/123",
+            "https://hello.com/Alert/123",
+            "https://hello.com/Alert/123",
+            "https://hello.com/Alert/123"
+          ]
+        }
+      ]
+    }
+  ]
+}

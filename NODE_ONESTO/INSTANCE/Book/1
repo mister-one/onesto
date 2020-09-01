@@ -1,0 +1,29 @@
+{
+  "Item": "Book",
+  "Id": "1",
+  "ABM": "ABM/Book/1",
+  "ATTR": [
+    {
+      "ATTR_1": "attr_value",
+      "ATTR_2": "attr_value"
+    }
+  ],
+  "MEAS": [
+    {
+      "MEAS_1": "meas_value",
+      "MEAS_2": "meas_value"
+    }
+  ],
+  "LINK": {
+    "link_1": {
+      "relationship": "(Book)-[PUBLISHED]->(Company)",
+      "landing_instance": "NRRT/Company/1"
+    }
+  },
+  "IIL": {
+    "ILL_1": {
+      "relationship": "(Company)-[PUBLISHED]->(Book)",
+      "origin_instance": "https://hello.com/Company/12"
+    }
+  }
+}

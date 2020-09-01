@@ -100,7 +100,7 @@
         {
           "relationship": "(Review)-[ABOUT]->(Book)",
           "instances_value_dtype": "ABM/Book/2",
-          "time_link": False,
+          "time_link": 'False',
           "link_criteria": "best_rated",
           "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
         }

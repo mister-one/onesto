@@ -4,17 +4,17 @@
       "ABM_ID": "1",
       "ATTR": [
         {
-          "attribute_name": "1_a_score",
-          "value_dtype": "MEAS"
+          "attribute_name": "a_1",
+          "value_dtype": "VARCHAR"
         },
         {
-          "attribute_name": "1_b_score",
-          "value_dtype": "MEAS"
+          "attribute_name": "a_2",
+          "value_dtype": "VARCHAR"
         }
       ],
       "MEAS": [
         {
-          "measure_name": "1_c_when",
+          "measure_name": "m_1",
           "measure_type": "time",
           "unit_of_measurement/format": "TIMESTAMP",
           "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
@@ -23,7 +23,7 @@
           "measurement_precision": "±(default=NULL)"
         },
         {
-          "measure_name": "1_d_when",
+          "measure_name": "m_2",
           "measure_type": "time",
           "unit_of_measurement/format": "TIMESTAMP",
           "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
@@ -34,15 +34,15 @@
       ],
       "LINK": [
         {
-          "relationship": "1_a_(__Self__)-[requested_by]->(__User__)",
-          "instances_value_dtype": "JSON(DTYPES)",
+          "relationship": "(Review)-[WRITTEN_BY]->(User)",
+          "instances_value_dtype": "ABM/User/1",
           "time_link": False,
           "link_criteria": "best_rated",
           "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
         },
         {
-          "relationship": "1_b_(__Self__)-[requested_by]->(__User__)",
-          "instances_value_dtype": "JSON(DTYPES)",
+          "relationship": "(Review)-[ABOUT]->(Book)",
+          "instances_value_dtype": "ABM/Book/1",
           "time_link": False,
           "link_criteria": "best_rated",
           "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
@@ -68,17 +68,17 @@
       "ABM_ID": "2",
       "ATTR": [
         {
-          "attribute_name": "2_a_score",
+          "attribute_name": "a_3",
           "value_dtype": "MEAS"
         },
         {
-          "attribute_name": "2_b_score",
+          "attribute_name": "a_4",
           "value_dtype": "MEAS"
         }
       ],
       "MEAS": [
         {
-          "measure_name": "2_c_when",
+          "measure_name": "m_3",
           "measure_type": "time",
           "unit_of_measurement/format": "TIMESTAMP",
           "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
@@ -87,7 +87,7 @@
           "measurement_precision": "±(default=NULL)"
         },
         {
-          "measure_name": "2_d_when",
+          "measure_name": "m_4",
           "measure_type": "time",
           "unit_of_measurement/format": "TIMESTAMP",
           "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
@@ -98,15 +98,8 @@
       ],
       "LINK": [
         {
-          "relationship": "2_a_(__Self__)-[requested_by]->(__User__)",
-          "instances_value_dtype": "JSON(DTYPES)",
-          "time_link": False,
-          "link_criteria": "best_rated",
-          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
-        },
-        {
-          "relationship": "2_b_(__Self__)-[requested_by]->(__User__)",
-          "instances_value_dtype": "JSON(DTYPES)",
+          "relationship": "(Review)-[ABOUT]->(Book)",
+          "instances_value_dtype": "ABM/Book/2",
           "time_link": False,
           "link_criteria": "best_rated",
           "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""

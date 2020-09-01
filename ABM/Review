@@ -36,14 +36,14 @@
         {
           "relationship": "(Review)-[WRITTEN_BY]->(User)",
           "instances_value_dtype": "ABM/User/1",
-          "time_link": False,
+          "time_link": FALSE,
           "link_criteria": "best_rated",
           "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
         },
         {
           "relationship": "(Review)-[ABOUT]->(Book)",
           "instances_value_dtype": "ABM/Book/1",
-          "time_link": False,
+          "time_link": FALSE,
           "link_criteria": "best_rated",
           "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
         }

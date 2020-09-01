@@ -36,19 +36,25 @@
         {
           "relationship": "(Review)-[WRITTEN_BY]->(User)",
           "instances_value_dtype": "ABM/User/1",
-          "link_criteria": "best_rated"
+          "time_link": False,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
         },
         {
           "relationship": "(Review)-[ABOUT]->(Book)",
           "instances_value_dtype": "ABM/Book/1",
-          "link_criteria": "best_rated"
+          "time_link": False,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
         }
       ],
       "pricing": {
         "reading_cost": {
+          "amount": 0.01,
           "currency": "USD"
         },
         "confirmed_interaction_cost": {
+          "amount": 0.01,
           "currency": "USD"
         },
         "stake": {
@@ -94,17 +100,22 @@
         {
           "relationship": "(Review)-[ABOUT]->(Book)",
           "instances_value_dtype": "ABM/Book/2",
-          "link_criteria": "best_rated"
+          "time_link": False,
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"User\"\": { \"\"link\"\": \"\"__input__\"\"} }\""
         }
       ],
       "pricing": {
         "reading_cost": {
+          "amount": 0.01,
           "currency": "USD"
         },
         "confirmed_interaction_cost": {
+          "amount": 0.01,
           "currency": "USD"
         },
         "stake": {
+          "amount": 0.01,
           "currency": "USD"
         }
       },

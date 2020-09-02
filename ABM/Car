@@ -4,11 +4,11 @@
       "ABM_ID": "1",
       "ATTR": [
         {
-          "attribute_name": "a_1",
+          "attribute_name": "model_name",
           "value_dtype": "VARCHAR"
         },
         {
-          "attribute_name": "a_2",
+          "attribute_name": "color",
           "value_dtype": "VARCHAR"
         }
       ],

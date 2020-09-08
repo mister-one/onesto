@@ -14,16 +14,24 @@
       "MEAS_2": "meas_value"
     }
   ],
-  "LINK": {
-    "link_1": {
+  "LINK": [
+    {
       "relationship": "(Company)-[PRODUCED]->(Car)",
       "landing_instance": "NRRT/Car/1"
+    },
+    {
+      "relationship": "(Company)-[LOCATED]->(Country)",
+      "landing_instance": "NRRT/Car/1"
     }
-  },
-  "IIL": {
-    "ILL_1": {
+  ],
+  "IIL": [
+    {
       "relationship": "(Car)-[PRODUCED_BY]->(Company)",
       "origin_instance": "https://hello.com/Car/12"
+    },
+    {
+      "relationship": "(Car)-[PRODUCED_OWNED]->(Person)",
+      "origin_instance": "https://hello.com/Person/12"
     }
-  }
+  ]
 }

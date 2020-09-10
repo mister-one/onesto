@@ -18,7 +18,7 @@
       ],
       "MEAS": [
         {
-          "measure_name": "m_1",
+          "measure_name": "max_speed",
           "measure_type": "time",
           "unit_of_measurement/format": "TIMESTAMP",
           "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
@@ -28,6 +28,16 @@
         },
         {
           "measure_name": "m_2",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+        ,
+        {
+          "measure_name": "consumption",
           "measure_type": "time",
           "unit_of_measurement/format": "TIMESTAMP",
           "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",

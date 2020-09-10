@@ -10,6 +10,10 @@
         {
           "attribute_name": "color",
           "value_dtype": "VARCHAR"
+        },
+        {
+          "attribute_name": "price",
+          "value_dtype": "VARCHAR"
         }
       ],
       "MEAS": [

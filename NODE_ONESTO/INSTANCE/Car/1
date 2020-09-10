@@ -16,7 +16,7 @@
   ],
   "LINK": [
     {
-      "relationship": "(Car)-[HAS]->(Engine)",
+      "relationship": "(Car)<-[PRODUCED]-(Company)",
       "landing_instance": "NRRT/Engine/2"
     },
     {

@@ -83,6 +83,7 @@
       "link_ranking": [
         {
           "origin": "Allert",
+          "relationship": "(Allert)-[ABOUT]->(Car)",
           "incoming_instance_address": [
             "https://hello.com/Alert/123",
             "https://hello.com/Alert/123",

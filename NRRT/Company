@@ -37,6 +37,17 @@
       "link_ranking": [
         {
           "origin": "Allert",
+          "relationship": "(Allert)-[RELATIVE]->(Company)",
+          "incoming_instance_address": [
+            "https://hello.com/Alert/123",
+            "https://hello.com/Alert/123",
+            "https://hello.com/Alert/123",
+            "https://hello.com/Alert/123"
+          ]
+        },
+        {
+          "origin": "Allert",
+          "relationship": "(Allert)-[RELATIVE]->(Company)",
           "incoming_instance_address": [
             "https://hello.com/Alert/123",
             "https://hello.com/Alert/123",
@@ -83,6 +94,17 @@
       "link_ranking": [
         {
           "origin": "Allert",
+          "relationship": "(Allert)-[RELATIVE]->(Company)",
+          "incoming_instance_address": [
+            "https://hello.com/Alert/123",
+            "https://hello.com/Alert/123",
+            "https://hello.com/Alert/123",
+            "https://hello.com/Alert/123"
+          ]
+        },
+        {
+          "origin": "Allert",
+          "relationship": "(Allert)-[RELATIVE]->(Company)",
           "incoming_instance_address": [
             "https://hello.com/Alert/123",
             "https://hello.com/Alert/123",

@@ -1,4 +1,5 @@
 # onesto
+# for more info check <>
  
 
 Our mission is to foster human collaboration by organising data in a meaningful and accessible way.

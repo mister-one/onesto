@@ -1,0 +1,37 @@
+{
+  "Item": "Book",
+  "Id": "1",
+  "ABM": "ABM/Book/1",
+  "ATTR": [
+    {
+      "title": "The black swan",
+      "category": "best sellers"
+    }
+  ],
+  "MEAS": [
+    {
+      "pages": "320",
+      "published_date": "2008"
+    }
+  ],
+  "LINK": [
+    {
+      "relationship": "(Book)<-[WROTE]-(Person)",
+      "landing_instance": "NRRT/Person/12"
+    },
+    {
+      "relationship": "(Book)<-[ABOUT]-(Review)",
+      "landing_instance": "https://xyz.com/Review/123128"
+    }
+  ],
+  "IIL": [
+    {
+      "relationship": "(Review)-[ABOUT]->(Book)",
+      "origin_instance": "https://hello.com/Review/12"
+    },
+    {
+      "relationship": "(Offer)-[FOR]->(Book)",
+      "origin_instance": "https://hello.com/Offer/1123"
+    }
+  ]
+}

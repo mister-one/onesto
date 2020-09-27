@@ -1,0 +1,37 @@
+{
+  "Item": "Person",
+  "Id": "1",
+  "ABM": "ABM/Person/1",
+  "ATTR": [
+    {
+      "first_name": "Nassim",
+      "last_name": "Taleb"
+    }
+  ],
+  "MEAS": [
+    {
+      "date_of_birth": "10/10/1960",
+      "weight": "88"
+    }
+  ],
+  "LINK": [
+    {
+      "relationship": "(Person)-[BORN]->(Country)",
+      "landing_instance": "NRRT/Country/1123"
+    },
+    {
+      "relationship": "(Person)-[LIVE]->(Country)",
+      "landing_instance": "NRRT/Country/1212"
+    }
+  ],
+  "IIL": [
+    {
+      "relationship": "(Message)-[TO]->(Person)",
+      "origin_instance": "https://hello.com/Message/12"
+    },
+    {
+      "relationship": "(Request)-[TO]->(Person)",
+      "origin_instance": "https://hello.com/Request/12"
+    }
+  ]
+}

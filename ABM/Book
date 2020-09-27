@@ -1,0 +1,128 @@
+{
+  "Book": [
+    {
+      "ABM_ID": "1",
+      "ATTR": [
+        {
+          "attribute_name": "title",
+          "value_dtype": "VARCHAR"
+        },
+        {
+          "attribute_name": "category",
+          "value_dtype": "VARCHAR"
+        }
+      ],
+      "MEAS": [
+        {
+          "measure_name": "pages",
+          "measure_type": "count",
+          "unit_of_measurement/format": "Page",
+          "value_dtype": "INT",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "published_date",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+        
+      ],
+      "LINK": [
+        {
+          "relationship": "(Book)<-[WROTE]-(Person)",
+          "instances_value_dtype": "ABM/Person/1",
+          "time_link": "False",
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"Person\"\": { \"\"name\"\": \"\"__input__\"\"} }\""
+        },
+      
+        {
+          "relationship": "(Book)<-[ABOUT]-(Review)",
+          "instances_value_dtype": "ABM/Review/1",
+          "time_link": "False",
+          "link_criteria": "direct",
+          "values": "\"{\"\"Review\"\": { \"\"title\"\": \"\"__input__\"\",\"\"score\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "ABM_ID": "2",
+      "ATTR": [
+        {
+          "attribute_name": "a_3",
+          "value_dtype": "MEAS"
+        },
+        {
+          "attribute_name": "a_4",
+          "value_dtype": "MEAS"
+        }
+      ],
+      "MEAS": [
+        {
+          "measure_name": "m_3",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        },
+        {
+          "measure_name": "m_4",
+          "measure_type": "time",
+          "unit_of_measurement/format": "TIMESTAMP",
+          "value_dtype": "TIMESTAMP_TZ(default=local_time_zone{UTC_ip_address})",
+          "statistic_type": "observation (default)",
+          "measurement_reference_time": "__self__",
+          "measurement_precision": "±(default=NULL)"
+        }
+      ],
+      "LINK": [
+        {
+          "relationship": "(Book)-[ABOUT]->(Country)",
+          "instances_value_dtype": "ABM/Country/2",
+          "time_link": "False",
+          "link_criteria": "best_rated",
+          "values": "\"{\"\"Country\"\": { \"\"iso_3\"\": \"\"__input__\"\"} }\""
+        }
+      ],
+      "pricing": {
+        "reading_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "confirmed_interaction_cost": {
+          "amount": 0.01,
+          "currency": "USD"
+        },
+        "stake": {
+          "amount": 0.01,
+          "currency": "USD"
+        }
+      },
+      "privacy": "public"
+    }
+      
+  ]
+}

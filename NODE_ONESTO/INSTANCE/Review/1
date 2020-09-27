@@ -1,0 +1,27 @@
+{
+  "Item": "Review",
+  "Id": "1",
+  "ABM": "ABM/Review/1",
+  "ATTR": [
+    {
+      "title": "This book is a masterpiece",
+      "text": "This book has been a great surprise. I strogly recomend it"
+    }
+  ],
+  "MEAS": [
+    {
+      "score": "4"
+    }
+  ],
+  "LINK": [
+    {
+      "relationship": "(Review)-[ABOUT]->(Book)",
+      "landing_instance": "NRRT/Book/1"
+    },
+    {
+      "relationship": "(Review)<-[WRITTEN]-(User)",
+      "landing_instance": "https://xyz.com/User/12312"
+    }
+  ],
+  "IIL": [  ]
+}
